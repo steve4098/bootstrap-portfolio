@@ -27,7 +27,6 @@
     background-color: white;
     padding: 5px 15px 5px 5px;
     border: 1px solid black;
-    align-content: center !important;
 }
 
 .navbar-brand img {
@@ -45,4 +44,15 @@
 
 .nav-link:hover {
     font-size: 2vw;
+}
+
+/*jumbotron*/
+.jumboBackground {
+    background-image: url(../Images/hero-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: calc(100vh - 25px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
