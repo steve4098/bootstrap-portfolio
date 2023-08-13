@@ -1,6 +1,7 @@
 :root {
     --boxShadow: rgba(146,204,206,0.4);
     --lightFont: rgb(220,255,220);
+    --borders: rgb(39, 114, 76);
 }
 
 
@@ -76,4 +77,11 @@
     max-width: 700px;
     color: var(--lightFont);
     text-align: left;
+}
+
+.section-heading {
+    padding: 10px 50px 10px 50px;
+    margin-top: 10px;
+    text-align: center;
+    border-top: 4px var(--borders) double;
 }
