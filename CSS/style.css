@@ -157,3 +157,13 @@ footer img {
     display: inline;
     max-height: 50px;
 }
+
+
+@media screen and (max-width: 1000px) {
+    
+    #aboutMe {
+        border-bottom: 2px var(--borders) dashed;
+        border-right: none;
+    }
+    
+}
