@@ -15,6 +15,15 @@
     padding: 5px;
 }
 
+.navbar-brand {
+    color: black;
+    font-size: 2vw;
+    font-style: bold;
+    background-color: white;
+    padding: 5px 15px 5px 5px;
+    border: 1px solid black;
+}
+
 .navbar-brand img {
     padding-right: 15px;
     width: 75px;
