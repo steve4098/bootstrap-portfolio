@@ -11,11 +11,11 @@
 
 .navbar-nav {
     margin-left: auto;
-    margin-right: 0;
+    margin-right: 0 !important;
     padding: 5px;
 }
 
 .navbar-brand img {
     padding-right: 15px;
-    width: 60px;
+    width: 75px;
 }
