@@ -1,0 +1,8 @@
+.customNav {
+    position: fixed;
+    width: 100%;
+    background-image: url(../Images/nav\ background.jpg);
+    background-color: transparent !important;
+    background-size: cover;
+    z-index: 5;
+}
