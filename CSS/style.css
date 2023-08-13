@@ -12,5 +12,10 @@
 .navbar-nav {
     margin-left: auto;
     margin-right: 0;
-    padding: 20px;
+    padding: 5px;
+}
+
+.navbar-brand img {
+    padding-right: 15px;
+    width: 60px;
 }
