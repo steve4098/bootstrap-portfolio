@@ -115,3 +115,18 @@
 .card-body:hover {
     background-color: rgba(255, 230, 0, 0.623);
 }
+
+/*about me*/
+
+/*footer*/
+
+footer{
+    margin-top: 10px;
+    text-align: center;
+    border-top: 4px var(--borders) double;
+}
+
+footer p{
+    margin-top: 25px;
+}
+
