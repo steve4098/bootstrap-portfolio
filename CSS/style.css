@@ -103,6 +103,7 @@
 
 .btn-primary a:hover{
     color: yellow !important;
+    box-shadow: var(--boxShadow);
 }
 
 /*skills*/
@@ -117,6 +118,24 @@
 }
 
 /*about me*/
+
+#aboutMe {
+    border-right: 2px var(--borders) dashed;
+}
+
+#aboutMe p {
+    padding: 10px;
+}
+
+#contactMe a {
+    padding: 5px;
+    text-decoration: none;
+    color: blue;
+}
+
+#contactMe a:hover {
+    color:purple;
+}
 
 /*footer*/
 
