@@ -85,3 +85,7 @@
     text-align: center;
     border-top: 4px var(--borders) double;
 }
+
+.container-fluid {
+    padding:30px;
+}
