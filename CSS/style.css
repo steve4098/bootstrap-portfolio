@@ -127,6 +127,10 @@
     padding: 10px;
 }
 
+#contactMe i {
+    margin-top: 25px;
+}
+
 #contactMe a {
     padding: 5px;
     text-decoration: none;
