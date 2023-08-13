@@ -23,8 +23,9 @@
 
 .navbar-brand {
     color: black;
-    font-size: 2vw;
+    font-size: 3vw;
     font-style: bold;
+    font-style: italic;
     background-color: white;
     padding: 5px 15px 5px 5px;
     border: 1px solid black;
@@ -60,8 +61,8 @@
 
 .jumboBackground img {
     border-radius: 30%;
-    position: relative;
-    top: 0;
+    position: absolute;
+    top: 150px;
     left: 75%;
     margin: 2px solid black;
     width: 250px;
@@ -70,7 +71,9 @@
 }
 
 .jumboCopy {
-    width: 60%;
+    width: 90%;
     min-width: 400px;
     max-width: 700px;
+    color: var(--lightFont);
+    text-align: left;
 }
