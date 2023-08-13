@@ -30,6 +30,7 @@
     background-color: white;
     padding: 5px 15px 5px 5px;
     border: 1px solid black;
+    border-radius: 15%;
 }
 
 .navbar-brand img {
@@ -80,6 +81,8 @@
     text-align: left;
 }
 
+/*my work*/
+
 .section-heading {
     padding: 10px 50px 10px 50px;
     margin-top: 10px;
@@ -100,4 +103,15 @@
 
 .btn-primary a:hover{
     color: yellow !important;
+}
+
+/*skills*/
+
+.card-body {
+    text-align: center;
+    background-color: white;
+}
+
+.card-body:hover {
+    background-color: rgba(255, 230, 0, 0.623);
 }
