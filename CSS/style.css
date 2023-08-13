@@ -56,3 +56,16 @@
     align-items: center;
     justify-content: center;
 }
+
+.jumboBackground img {
+    border-radius: 30%;
+    position: relative;
+    top: 0;
+    left: 75%;
+    margin: 2px solid black;
+    width: 250px;
+    height: 250px;
+    z-index: 4;
+}
+
+.jumboCopy {}
