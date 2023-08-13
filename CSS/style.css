@@ -47,6 +47,7 @@
 
 .nav-link:hover {
     font-size: 2vw;
+    color: yellow;
 }
 
 /*jumbotron*/
@@ -98,5 +99,5 @@
 }
 
 .btn-primary a:hover{
-    color: yellowgreen !important;
+    color: yellow !important;
 }
