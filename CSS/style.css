@@ -1,3 +1,7 @@
+:root {
+    --boxShadow: rgba(146,204,206,0.4);
+}
+
 
 /*navigation bar*/
 .customNav {
@@ -7,7 +11,7 @@
     background-color: transparent !important;
     background-size: cover;
     z-index: 5;
-    box-shadow: 0 5px 35px rgba(146,204,206,0.4);
+    box-shadow: 0 5px 35px var(--boxShadow);
 }
 
 .navbar-nav {
@@ -23,6 +27,7 @@
     background-color: white;
     padding: 5px 15px 5px 5px;
     border: 1px solid black;
+    align-content: center !important;
 }
 
 .navbar-brand img {
