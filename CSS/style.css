@@ -63,8 +63,8 @@
 .jumboBackground img {
     border-radius: 30%;
     position: absolute;
-    top: 150px;
-    left: 75%;
+    top: 250px;
+    right: 10%;
     margin: 2px solid black;
     width: 250px;
     height: 250px;
@@ -95,5 +95,8 @@
     font-size: 1.5vw;
     text-decoration: none;
     padding: 10px 10px 15px 10px;
-    /*transition: ;*/
+}
+
+.btn-primary a:hover{
+    color: yellowgreen !important;
 }
