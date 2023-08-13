@@ -1,5 +1,6 @@
 :root {
     --boxShadow: rgba(146,204,206,0.4);
+    --lightFont: rgb(220,255,220);
 }
 
 
@@ -68,4 +69,8 @@
     z-index: 4;
 }
 
-.jumboCopy {}
+.jumboCopy {
+    width: 60%;
+    min-width: 400px;
+    max-width: 700px;
+}
