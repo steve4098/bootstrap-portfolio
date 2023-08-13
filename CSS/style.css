@@ -120,13 +120,17 @@
 
 /*footer*/
 
-footer{
+footer {
     margin-top: 10px;
     text-align: center;
     border-top: 4px var(--borders) double;
 }
 
-footer p{
+footer p {
     margin-top: 25px;
 }
 
+footer img {
+    display: inline;
+    max-height: 50px;
+}
